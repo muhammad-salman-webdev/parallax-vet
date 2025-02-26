@@ -1,9 +1,69 @@
+@import url("./fonts.css");
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    transition: all .3s ease;
 }
 
 body {
     background: #dfe0e1;
+    min-height: 100vh;
+}
+
+.header {
+    position: fixed;
+    top: 2vw;
+    right: 2vw;
+    left: 0;
+
+    .header-container {
+        nav ul {
+            display: flex;
+            justify-content: end;
+            align-items: center;
+            gap: 30px;
+
+            a {
+                display: block;
+
+                &:hover {
+                    transform: rotate(10deg) scale(1.08);
+                }
+            }
+
+            img {
+                width: 44px;
+            }
+
+            li:first-child {
+                img {
+                    display: block;
+                    transform: translateY(2px);
+                    width: 54px;
+                }
+            }
+        }
+    }
+}
+
+.footer {
+    position: fixed;
+    bottom: 2vw;
+    right: 2vw;
+    left: 0;
+
+    .footer-items {
+        display: flex;
+        justify-content: end;
+
+        li a {
+            color: black;
+            font-family: 'DailyChallenge';
+            font-size: 28px;
+        }
+    }
 }
