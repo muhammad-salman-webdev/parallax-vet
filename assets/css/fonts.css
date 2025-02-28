@@ -4,3 +4,66 @@
     font-weight: normal;
     font-style: normal;
 }
+
+@font-face {
+    font-family: 'DMSerifText';
+    src: url('../fonts/DMSerifText-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Time new Roman';
+    src: url('../fonts/times.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ApercuBoldItalic';
+    src: url('../fonts/apercu_bold_italic_pro.otf') format('opentype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'ApercuBoldItalic';
+    src: url('../fonts/apercu_bold_pro.otf') format('opentype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'ApercuBoldItalic';
+    src: url('../fonts/apercu_medium_italic_pro.otf') format('opentype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'ApercuBoldItalic';
+    src: url('../fonts/apercu_medium_pro.otf') format('opentype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'ApercuBoldItalic';
+    src: url('../fonts/apercu_regular_italic_pro.otf') format('opentype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'ApercuBoldItalic';
+    src: url('../fonts/apercu_regular_pro.otf') format('opentype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Apercu-Light';
+    src: url('../fonts/FontsFree-Net-ApercuLight.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}

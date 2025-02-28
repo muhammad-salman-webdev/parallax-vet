@@ -50,6 +50,61 @@ body {
     }
 }
 
+/* Main Content  */
+.mail-tab-content-main,
+.com-tab-content-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90vw;
+    height: 100vh;
+    max-width: 1035px;
+    margin: 0 auto;
+    display: none;
+
+    .tab-content-main-head {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+
+        h1 {
+            font-size: clamp(20px, 5vw, 60px);
+            line-height: 100px;
+            font-weight: 400;
+            color: #161616;
+            font-family: 'DMSerifText', serif;
+        }
+
+        a {
+            img {
+                width: 90px;
+            }
+        }
+    }
+
+    .tab-content {
+        text-align: center;
+        font-size: clamp(12px, 2vw, 20px);
+        font-weight: 400;
+        padding: 0 12px;
+        font-family: 'Apercu-Light', sans-serif;
+        
+    }
+}
+
+.com-tab-content-main {
+    &.show {
+        display: flex;
+    }
+}
+
+.mail-tab-content-main {
+    &.show {
+        display: flex;
+    }
+}
+
 .footer {
     position: fixed;
     bottom: 2vw;

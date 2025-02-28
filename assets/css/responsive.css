@@ -1,0 +1,26 @@
+@media (max-width: 600px) {
+    .header {
+        & .header-container {
+            nav ul {
+                img {
+                    width: 30px;
+                }
+            }
+        }
+    }
+
+    .tab-content-main {
+        .tab-content-main-head {
+            h1 {
+                font-size: 16px;
+                line-height: 30px;
+            }
+
+            a {
+                img {
+                    width: 50px;
+                }
+            }
+        }
+    }
+}
