@@ -1,17 +1,12 @@
-const sonogramIcon = document.getElementById("sonogram-icon");
-const comTabContent = document.getElementById("com-tab-content-main");
-const mailIcon = document.getElementById("mail-icon");
-const mailTabContent = document.getElementById("mail-tab-content-main");
+const allTabs = document.querySelectorAll("[data-content-tab]");
+const allTabBtns = document.querySelectorAll("[data-tab-btn]");
 
-sonogramIcon.addEventListener("click", (event) => {
-  event.preventDefault();
+allTabBtns.forEach((btn, index) => {
+  btn.addEventListener("click", () => {
+    // Removing all the tabs class
+    allTabs.forEach((_tab) => _tab.classList.remove("show"));
 
-  comTabContent.classList.add("show");
-  mailTabContent.classList.remove("show");
-});
-mailIcon.addEventListener("click", (event) => {
-  event.preventDefault();
-
-  mailTabContent.classList.add("show");
-  comTabContent.classList.remove("show");
+    // Add the only one class
+    allTabs[index].classList.add("show");
+  });
 });
